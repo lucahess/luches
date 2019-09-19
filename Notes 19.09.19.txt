@@ -1,0 +1,21 @@
+sequencing is error prone! need to compensate
+
+to have whole genome present in the end, need to oversample => sequence so often,
+that you have at least a couple representations of each sequence
+because by chance PCR amplifies some areas less (less ideal for binding).
+
+Getting an oversampling is also important, so when you get errors, you have
+statistical data to back up the most likely base at that position.
+
+Read depth/coverage: statistically want whole genome represented many times
+(high quality at least 30-50x!)
+=> read depth: how many times each base in the genome is represented
+
+Know differences between primary databases and curated and reviewed databases!
+
+But course is more about analysing, less the understanding.
+
+Different large databases on cancer variants have different focuses!
+
+Civic database is where researchers can contribute directly to the annotations. 
+Makes it easier to have more broad representation of genome variant data.
