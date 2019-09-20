@@ -1,0 +1,23 @@
+PLINK v1.90b4.4 64-bit (21 May 2017)
+Options in effect:
+  --freq
+  --out HAN
+  --vcf HAN.chr20.chunk1.1kg.all.vcf.gz
+
+Hostname: ieu1205-k01f
+Working directory: /Users/luches/Documents/Luca/tutorial 3 PLINK etc/plink-genetics
+Start time: Fri Sep 20 15:33:55 2019
+
+Random number seed: 1568986435
+32768 MB RAM detected; reserving 16384 MB for main workspace.
+--vcf: HAN-temporary.bed + HAN-temporary.bim + HAN-temporary.fam written.
+95626 variants loaded from .bim file.
+103 people (0 males, 0 females, 103 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to HAN.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 103 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999928.
+--freq: Allele frequencies (founders only) written to HAN.frq .
+
+End time: Fri Sep 20 15:33:55 2019
