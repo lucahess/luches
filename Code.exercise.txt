@@ -1,0 +1,72 @@
+cd ~ # goes to the home directory
+mkdir -p course #makes folder called course
+ls -l course #checks if that folder empty
+
+mkdir -p course/soft course/data course/output #makes further folders
+
+ls -l course
+
+
+
+#retrieve data
+cd  ~/course/data
+
+curl http://gattaca.imppc.org/groups/maplab/imallona/teaching/example.bed \
+   > example.bed
+
+curl http://gattaca.imppc.org/groups/maplab/imallona/teaching/hg19.genome \
+   > hg19.genome
+
+## this will check which kind of file it is
+file example.bed
+
+# this its size
+ls -lah example.bed
+
+# this will print the first lines
+head example.bed
+
+file hg19.genome
+ls -lah hg19.genome
+head hg19.genome
+
+
+
+#retrieve software
+mkdir ~/course/soft/kent
+cd ~/course/soft/kent
+
+pwd  # printing current directory
+
+curl http://hgdownload.soe.ucsc.edu/admin/exe/macOSX.x86_64/bedToBigBed \
+   > bedToBigBed
+
+file bedToBigBed
+
+## adding exec permissions to the binary
+
+chmod a+x bedToBigBed
+
+# testing usage
+
+## running the actual command
+./bedToBigBed ../../data/example.bed ../../data/hg19.genome ~/course/output/out.bb
+
+ls -lah ~/course/data/example.bed
+ls -lah ~/course/output/out.bb
+file ~/course/output/out.bb
+
+
+
+
+#download packets for BED
+cd ~/course/soft
+curl -L https://github.com/arq5x/bedtools2/releases/download/v2.25.0/bedtools-2.25.0.tar.gz \
+  > bedtools-2.25.0.tar.gz
+
+tar zxvf bedtools-2.25.0.tar.gz #uncompress
+cd bedtools2 #go to folder
+make  ## will take time! compiles program
+alias bedtools='~/course/soft/bedtools2/bin/bedtools'
+
+bedtools --help
