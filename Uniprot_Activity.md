@@ -4,7 +4,7 @@ In this case, "reviewed" means that a "Biocurator" has manually checked and veri
 
 ### Searching for HSOD gives two entries:
 
-P00441 SODC_HUMAN Superoxide Dismutase [Cu-Zn]
+P00441 SODC_HUMAN Superoxide Dismutase [Cu-Zn]  
 O14618 CCS_HUMAN Copper chaperone for superoxide dismutase
 
 Our protein of interest is SODC_HUMAN.
