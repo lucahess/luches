@@ -31,26 +31,26 @@ According to UniProt, it destroys radicals which are normally produced within th
 
 ### Gene Ontology - Molecular Function & Biological Process
 
-Molecular Function:
+Molecular Function:  
 
-chaperone binding Source
-copper ion binding Source
-identical protein binding
-protein homodimerization activity
-protein phosphatase 2B binding
-Rac GTPase binding
-superoxide dismutase activity
-zinc ion binding
+chaperone binding Source   
+copper ion binding Source  
+identical protein binding  
+protein homodimerization activity  
+protein phosphatase 2B binding  
+Rac GTPase binding  
+superoxide dismutase activity  
+zinc ion binding  
 
 Biological Process (selection):
 
-activation of MAPK activity
-anterograde axonal transport
-auditory receptor cell stereocilium organization
-cell aging
-cellular iron ion homeostasis
-cellular response to ATP
-cellular response to cadmium ion Source
-cellular response to oxidative stress
-cellular response to potassium ion
-embryo implantation
+activation of MAPK activity  
+anterograde axonal transport  
+auditory receptor cell stereocilium organization  
+cell aging  
+cellular iron ion homeostasis  
+cellular response to ATP  
+cellular response to cadmium ion Source  
+cellular response to oxidative stress  
+cellular response to potassium ion  
+embryo implantation  
