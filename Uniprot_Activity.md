@@ -22,7 +22,7 @@ Four of them are catalytic copper binding at positions: 47, 49, 64 and 121. The 
 
 There are many natural variants of this protein, mostly evenly spread with an increased density of variants around sequence positions 80-100 aswell as a smaller "peak" at positions 20-40. Variants affecting metal binding sites don't seem to be in these "variant-rich" regions.
 
-The variant 1N19 relevant in ALS we where previously interested in is located at position 5 (A > V) and has the identifier: dbSNP:rs121912442
+The variant 1N19 relevant in ALS we where previously interested in is located at position 5 (A > V) and has the identifier: dbSNP:rs121912442. This variant has been found to be related to a severe form of ALS. It reduces structural stability and enzyme activity of the protein. It also increases the tendency to form fibrillar aggregates.
 
 ### Biological Function
 
